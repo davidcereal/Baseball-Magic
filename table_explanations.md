@@ -2,9 +2,11 @@
 ### Explanation of some unintuitive fields in our tables
 
 ## atbat
-**num** - The nth batter-pitcher matchup of the game.
+**`num`** - The nth batter-pitcher matchup of the game.
 
-**start_tfs_zulu** - The time of the at-bat(?). 
+**`start_tfs_zulu`** - The time of the at-bat(?). 
+
+**`event2`, `event3`, `event4`** - Any additional events on top of `event` (If an error was comitted on the play, for example).
 
 ## pitch
 **id** - a unique identification number per pitch within a game. The numbers increment by one for each pitch but are not consecutive between at bats.
