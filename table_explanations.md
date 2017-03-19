@@ -7,8 +7,11 @@
 
 ## pitch
 **id** - a unique identification number per pitch within a game. The numbers increment by one for each pitch but are not consecutive between at bats.
+
 **type** - a one-letter abbreviation for the result of the pitch: B, ball; S, strike (including fouls); X, in play.
+
 **sz_top** - the distance in feet from the ground to the top of the current batter’s rulebook strike zone as measured from the video by the PITCHf/x operator. The operator sets a line at the batter’s belt as he settles into the hitting position, and the PITCHf/x software adds four inches up for the top of the zone.
+
 **sz_bot** - the distance in feet from the ground to the bottom of the current batter’s rulebook strike zone. The PITCHf/x operator sets a line at the hollow of the knee for the bottom of the zone.
 **pfx_x** - the horizontal movement, in inches, of the pitch between the release point and home plate, as compared to a theoretical pitch thrown at the same speed with no spin-induced movement. This parameter is measured at y=40 feet regardless of the y0 value.
 **pfx_z** - the vertical movement, in inches, of the pitch between the release point and home plate, as compared to a theoretical pitch thrown at the same speed with no spin-induced movement. This parameter is measured at y=40 feet regardless of the y0 value.
