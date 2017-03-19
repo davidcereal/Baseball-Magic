@@ -54,6 +54,8 @@ break_angle: the angle, in degrees, from vertical to the straight line path from
 ## game
 **game_pk** - game id integrated into mlbam's exit velocity and batted ball distance data
 
+**game_type** - Distinguishes which type of game is played. `R` means regular season. 
+
 ****
 
 ****
