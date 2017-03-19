@@ -1,4 +1,4 @@
-# Table Expalantions
+# Table Explantions
 ### Explanation of some unintuitive fields in our tables
 
 ## atbat
