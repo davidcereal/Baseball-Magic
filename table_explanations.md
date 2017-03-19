@@ -6,10 +6,6 @@
 *start_tfs_zulu* - ? The time of the at-bat 
 
 ## pitch
-**num**- The nth batter-pitcher matchup of the game. 
-
-
-## pitch
 **id** - a unique identification number per pitch within a game. The numbers increment by one for each pitch but are not consecutive between at bats.
 
 **type** - a one-letter abbreviation for the result of the pitch: B, ball; S, strike (including fouls); X, in play.
