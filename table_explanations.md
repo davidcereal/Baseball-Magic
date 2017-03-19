@@ -8,6 +8,9 @@
 
 **`event2`, `event3`, `event4`** - Any additional events on top of `event` (If an error was comitted on the play, for example).
 
+**`play_guid`** - The unique id of the play. 
+
+
 ## pitch
 **id** - a unique identification number per pitch within a game. The numbers increment by one for each pitch but are not consecutive between at bats.
 
