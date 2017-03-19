@@ -12,7 +12,7 @@
 
 
 ## pitch
-**id** - a unique identification number per pitch within a game. The numbers increment by one for each pitch but are not consecutive between at bats.
+**id** - a unique identification number per pitch within a game. The numbers increment by one for each pitch but are not consecutive between at bats. Appears to be same as event_num.
 
 **type** - a one-letter abbreviation for the result of the pitch: B, ball; S, strike (including fouls); X, in play.
 
@@ -50,3 +50,10 @@ break_angle: the angle, in degrees, from vertical to the straight line path from
 **pitch_type** - the most probable pitch type according to a neural net classification algorithm developed by Ross Paul of MLBAM.
 
 **type_confidence** - the value of the weight at the classification algorithm’s output node corresponding to the most probable pitch type, this value is multiplied by a factor of 1.5 if the pitch is known by MLBAM to be part of the pitcher’s repertoire.
+
+## game
+**game_pk** - game id integrated into mlbam's exit velocity and batted ball distance data
+
+****
+
+****
